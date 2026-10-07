@@ -8,7 +8,7 @@
 
 .form-subtitle {
   color: #616161;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
 }
 
@@ -19,7 +19,7 @@
 
   label {
     font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: #424242;
     margin-bottom: 0.3rem;
   }
@@ -27,17 +27,10 @@
 
 .form-input {
   width: 100%;
-  padding: 0.8rem 1rem;
-  border: 1px solid #e0e0e0;
+  padding: 1rem 1rem;
   border-radius: 0.5rem;
   font-size: 0.95rem;
   box-sizing:border-box;
-
-  &:focus {
-    outline: none;
-    border-color: #1a237e;
-    box-shadow: 0 0 0 2px rgba(26, 35, 126, 0.1);
-  }
 }
 
 .options-row {
@@ -45,61 +38,40 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
-  font-size: 0.85rem;
+  font-size: 1rem;
 
   .checkbox-label {
     display: flex;
     align-items: center;
     color: #616161;
-    cursor: pointer;
-
-    input {
-      margin-right: 0.5rem;
-    }
-  }
-
-  .forgot-password {
-    color: #616161;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }
 
 .primary-button {
-  background-color: #009688;
+  background-color: #0e0541;
   color: white;
-  border: none;
   border-radius: 2rem;
-  padding: 0.9rem 2rem;
-  font-size: 0.9rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  cursor: pointer;
   width: 100%;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.2s;
-
-  &:hover {
-    filter: brightness(1.1);
-  }
 }
 
-.error-text {
+.texto-error {
   color: #d32f2f;
-  font-size: 0.85rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-  font-weight: 500;
-}
-
-.compact-input {
-  padding: 0.6rem 1rem;
 }
 
 .register-button {
   background-color: #f3d736;
+}
+
+.form-link {
+  color: #0e0541;
+  text-decoration: none;
+  font-weight: bold;
 }
